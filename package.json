@@ -1,0 +1,17 @@
+{
+  "name": "basic-proxy-server",
+  "type": "module",
+  "module": "src/main.ts",
+  "scripts": {
+    "cq:fix": "biome check src --write",
+    "start": "bun src/main.ts"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.8.3",
+    "@types/bun": "latest",
+    "typescript": "^5.5.3"
+  },
+  "trustedDependencies": [
+    "@biomejs/biome"
+  ]
+}
